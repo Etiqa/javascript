@@ -1,6 +1,6 @@
-# Airbnb JavaScript Style Guide() {
+# Etiqa JavaScript Style Guide() {
 
-*A mostly reasonable approach to JavaScript*
+*A mostly reasonable approach to JavaScript based on the Airbnb JavaScript Style Guide *
 
 
 ## Table of Contents
