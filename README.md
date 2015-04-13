@@ -1328,6 +1328,17 @@
 	var $sidebar = $('.sidebar');
 	```
 
+- Inside Angular Directives (Angular uses $ for some internal methods and properties):
+
+```javascript
+	// good
+	var $sidebar = $('.sidebar');
+
+	// bad
+	var DOMsidebar = angular.element('.sidebar');
+
+```
+
 - Cache jQuery lookups.
 
 	```javascript
