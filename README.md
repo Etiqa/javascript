@@ -1331,10 +1331,10 @@
 - Inside Angular Directives (Angular uses $ for some internal methods and properties):
 
 ```javascript
-	// good
+	// bad
 	var $sidebar = $('.sidebar');
 
-	// bad
+	// good
 	var DOMsidebar = angular.element('.sidebar');
 
 ```
